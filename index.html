@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Storage Example</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .avatar {
+      border-radius: 50%;
+      width: 70px;
+      height: 70px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1>User Data</h1>
+          <button id="getDataButton" class="btn btn-primary">Obtener usuarios</button>
+        </div>
+      </div>
+    </div>
+    <table class="table">
+      <thead class="thead-dark">
+        <tr class="table-info">
+          <th>ID</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email</th>
+          <th>Avatar</th>
+        </tr>
+      </thead>
+      <tbody id="userDataBody">
+        <!-- Data will be dynamically added here -->
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Agrega la referencia al archivo script.js -->
+  <script src="script.js"></script>
+</body>
+</html>
